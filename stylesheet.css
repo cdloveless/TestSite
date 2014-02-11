@@ -1,0 +1,75 @@
+body {
+	background: -webkit-linear-gradient(left top, #58ACFA, #BDBDBD);
+	background: -o-linear-gradient (left top, #58ACFA, #BDBDBD);
+	background: -moz-linear-gradient (left top, #58ACFA, #BDBDBD);
+	background: linear-gradient (left top, #58ACFA,#BDBDBD);
+	background-size: contain;
+}
+h1 {
+	font-size: 72px;
+	font-family: Impact;
+	color: #FFFFFF;
+	text-align: center;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+p {
+	color: #000000;
+	font-family: "Lucida Sans Unicode", cursive, serif;
+	font-size: 32px;
+	text-align: center;
+}
+.xkcdbutton {
+	margin: auto;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Impact;
+	font-size: 24px;
+	background-color: #58ACFA;
+	width: 125px;
+	height: 50px; 
+	border-radius: 50px;
+	text-decoration: none;
+	line-height: 45px;
+	border: 1px solid black
+}
+a {
+	color: #FFFFFF;
+	font-family: Impact;
+	font-size; 24px;
+	margin: auto;
+	text-decoration: none;
+	vertical-align: middle;
+}
+form {
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+.container_main {
+	margin: auto;
+	height: 480px;
+	width: 60%;
+	background-color:rgba(132,132,132,0.5);
+	border: 2px solid black;
+	border-radius: 20px;
+}
+/*.container_main_header {
+	margin: auto;
+	font-family: Impact;
+	font-size: 1.25em;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 20px;
+	height: 10%;
+	width: 90%;
+} Temporarily removed from website */
+.under_container_main {
+	margin: auto;
+	background-color: white;
+	opacity: 5;
+	width: 60%;
+	height: 48px;
+	border: 3px solid black;
+	border-radius: 20px;
+}
